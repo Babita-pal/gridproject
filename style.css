@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+.heading{
+    text-align: center;
+    font-size: 67px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2)
+}
+body{
+    background:linear-gradient(to right,#020224,#b94bee);
+}
+.container{
+    height: 85vh;
+    width: 90vw;
+    place-items:center;
+    /* border: 5px solid black; */
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    gap: 5px 5px;
+
+}
+.box{
+    background-color: #fff;
+    height: 40vh;
+    width: 30vw;
+    border: 3px solid black;
+    text-align: center ;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.box:hover{
+    transform: scale(1.05);
+    background-color:white
+}
+.button{
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    display:inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #333;
+}
+
+.image{
+    height:80px;
+    width:70px;
+}
+
+.css{
+    height: 80px;
+    width: 70px;
+}
+.js{
+    height: 80px;
+    width: 70px;
+}
+.saas{
+    height: 80px;
+    width: 70px;
+}
+.jquery{
+    height: 80px;
+    width: 70px;
+}
+.react{
+    height: 80px;
+    width: 70px;
+}
+.box p {
+    color: #777;
+    font-size: 15px;
+    
+}
+@media (min-widht: 769px) and (maxz-widht: 1024) {
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+  
+}
+@media (min-widht: 481px) and (max-widht: 768px) {
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+}
+@media (min-widht: 320px) and(max-widht: 480px){
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+}
+@media (max-widht: 320px){
+    #main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+
+
+    
+
+    }
+
+
+
+
+
+}
+    
